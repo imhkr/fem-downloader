@@ -15,7 +15,7 @@ const flow = url => (username, password, courseSlug, fromLesson) =>
     .chain(downloadVideos(url, courseSlug))
     .chain(closeBrowser);
 
-const femDownload = flow('https://frontendmasters.com');
+const femDownload = flow('https://online.codingblocks.com/');
 
 const optionDefinitions = [
   {
